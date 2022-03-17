@@ -1,11 +1,12 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * mul - checks for lowercase character.
- * @a: entero recibo por main.
- * @b: entero recibido por main
- * Return: 1 if c is uppercase
+ * mul - function that multiplies two integers
+ * @a: int type number
+ * @b: int type number
+ * Return: a * b
  */
+
 int mul(int a, int b)
 {
 	return (a * b);
